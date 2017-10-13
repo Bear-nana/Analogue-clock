@@ -1,0 +1,70 @@
+
+body {
+	background-color: #66d9ff;
+}
+
+#canvas{
+	background-color: pink;
+	border: solid 1px pink;  
+	border-radius: 100px;
+	margin-top: 50px;
+}
+
+
+/*-- MEDIA QUERIES --*/
+@media(max-width: 1200px) {
+	#canvas{
+	height: 600px;
+	width: 600px;
+
+}
+
+@media(max-width: 991px) {
+	#canvas{
+	height: 500px;
+	width: 500px;
+}
+
+}
+
+
+@media(min-width: 768px) and (max-width: 990px) {
+	#canvas{
+	height: 400px;
+	width: 400px;
+	margin-left: 23px;
+}
+	
+}
+
+
+@media(min-width: 768px) {
+
+	#canvas{
+	height: 400px;
+	width: 400px;
+	margin-left: -30px;
+}
+
+}
+
+@media(max-width: 500px) {
+
+	#canvas{
+	height: 350px;
+	width: 350px;
+	margin-left: 55px;
+}
+
+}
+
+@media(max-width: 379px) and (min-width: 320px){
+
+	#canvas{
+	height: 250px;
+	width: 250px;
+	margin-left: 20px;
+}
+
+}
+				
